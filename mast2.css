@@ -122,3 +122,34 @@ footer {
     }
 
 }
+
+/* Dropdown menu */
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 220px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+}
+
+
+.dropdown-content a {
+    display: block;
+    padding: 8px;
+    margin: 0;
+    font-weight: normal;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
