@@ -1,0 +1,284 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1050px;
+    margin: auto;
+    padding: 20px 35px;
+    color: #222;
+    line-height: 1.6;
+}
+
+
+/* ---------- Header ---------- */
+
+.top-header {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 15px;
+
+}
+
+
+.header-left {
+
+    width: 70%;
+
+}
+
+
+.header-left h1 {
+
+    font-size: 38px;
+    margin: 0;
+    font-weight: normal;
+
+}
+
+
+.header-left h2 {
+
+    font-size: 24px;
+    margin-top: 5px;
+    font-weight: normal;
+
+}
+
+
+.header-right {
+
+    width: 25%;
+    text-align: right;
+
+}
+
+
+.header-right img {
+
+    width: 180px;
+    height: auto;
+
+}
+
+
+/* Yellow divider like Tamas site */
+
+.yellow-line {
+
+    height: 5px;
+    background-color: #e6c200;
+    margin: 15px 0 20px 0;
+
+}
+
+
+
+/* ---------- Navigation ---------- */
+
+
+nav {
+
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 12px;
+    margin-bottom: 30px;
+
+}
+
+
+nav a {
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+
+}
+
+
+nav a:hover {
+
+    color: #b8860b;
+
+}
+
+
+
+/* ---------- Dropdown ---------- */
+
+
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+
+}
+
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background: white;
+    min-width: 230px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 5;
+
+}
+
+
+.dropdown-content a {
+
+    display: block;
+    padding: 7px;
+    font-weight: normal;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+
+    display: block;
+
+}
+
+
+
+/* ---------- Main Content ---------- */
+
+
+h2 {
+
+    color: #006400;
+    font-weight: normal;
+    margin-top: 30px;
+
+}
+
+
+h3 {
+
+    color: #006400;
+
+}
+
+
+a {
+
+    color: #0645ad;
+
+}
+
+
+strong {
+
+    font-weight: bold;
+
+}
+
+
+
+/* ---------- Bottom boxes ---------- */
+
+
+.boxes {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+
+}
+
+
+.box {
+
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    background: #fafafa;
+    transition: 0.2s;
+
+}
+
+
+.box span {
+
+    float: right;
+    font-size: 25px;
+
+}
+
+
+.box:hover {
+
+    background: #f2f2f2;
+    border-color: #e6c200;
+
+}
+
+
+
+/* ---------- Footer ---------- */
+
+
+footer {
+
+    border-top: 1px solid #ddd;
+    padding-top: 15px;
+    margin-top: 40px;
+    font-size: 0.9em;
+
+}
+
+
+
+/* ---------- Mobile ---------- */
+
+
+@media(max-width:750px) {
+
+
+.top-header {
+
+    flex-direction: column-reverse;
+
+}
+
+
+.header-left,
+.header-right {
+
+    width: 100%;
+    text-align: left;
+
+}
+
+
+.header-right img {
+
+    width: 150px;
+
+}
+
+
+nav {
+
+    flex-wrap: wrap;
+
+}
+
+
+.boxes {
+
+    grid-template-columns: 1fr;
+
+}
+
+
+}
