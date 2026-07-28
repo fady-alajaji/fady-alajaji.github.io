@@ -76,21 +76,21 @@ main,
 }
 
 
-.site-title-row {
-
-    margin-bottom: 15px;
-
-}
-
-
 .site-title {
-
-    font-size: 36px;
     margin: 0;
-    font-weight: normal;
-
+    font-size: 42px;
+    font-weight: 700;
+    color: #003366;
+    line-height: 1.1;
 }
 
+.site-subtitle {
+    margin: 6px 0 0 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #666;
+    line-height: 1.3;
+}
 
 .site-subtitle {
 
