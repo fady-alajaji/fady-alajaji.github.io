@@ -1,103 +1,150 @@
+/* =========================
+   General layout
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1050px;
-    margin: auto;
-    padding: 20px 35px;
     color: #222;
     line-height: 1.6;
+    background: white;
 }
 
 
-/* ---------- Header ---------- */
+.inner,
+.site-header,
+main,
+.site-footer {
+    max-width: 1100px;
+    margin: auto;
+}
 
-.top-header {
+
+/* =========================
+   Institution bar
+   ========================= */
+
+.institution-bar {
+
+    background: #003366;
+    color: white;
+    width: 100%;
+    padding: 10px 0;
+
+}
+
+
+.institution-bar .inner {
 
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-bottom: 15px;
+    padding: 0 30px;
 
 }
 
 
-.header-left {
+.institution-bar a {
 
-    width: 70%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 
 }
 
 
-.header-left h1 {
+.institution-bar a:hover {
 
-    font-size: 38px;
+    text-decoration: underline;
+
+}
+
+
+
+/* =========================
+   Header
+   ========================= */
+
+
+.site-header {
+
+    padding: 25px 30px 0 30px;
+
+}
+
+
+.site-title-row {
+
+    margin-bottom: 15px;
+
+}
+
+
+.site-title {
+
+    font-size: 36px;
     margin: 0;
     font-weight: normal;
 
 }
 
 
-.header-left h2 {
+.site-subtitle {
 
-    font-size: 24px;
-    margin-top: 5px;
-    font-weight: normal;
-
-}
-
-
-.header-right {
-
-    width: 25%;
-    text-align: right;
-
-}
-
-
-.header-right img {
-
-    width: 180px;
-    height: auto;
-
-}
-
-
-/* Yellow divider like Tamas site */
-
-.yellow-line {
-
-    height: 5px;
-    background-color: #e6c200;
-    margin: 15px 0 20px 0;
+    font-size: 22px;
+    margin: 5px 0;
 
 }
 
 
 
-/* ---------- Navigation ---------- */
+/* =========================
+   Navigation
+   ========================= */
 
 
-nav {
+.site-nav {
+
+    border-bottom: 4px solid #e6c200;
+    margin-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+
+.site-nav ul {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
 
     display: flex;
-    align-items: center;
     gap: 25px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 12px;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
 
 }
 
 
-nav a {
+.site-nav li {
+
+    position: relative;
+
+}
+
+
+.site-nav a {
 
     text-decoration: none;
-    color: #333;
+    color: #003366;
     font-weight: bold;
 
 }
 
 
-nav a:hover {
+.site-nav a:hover {
 
     color: #b8860b;
 
@@ -105,13 +152,11 @@ nav a:hover {
 
 
 
-/* ---------- Dropdown ---------- */
-
+/* Dropdown */
 
 .dropdown {
 
     position: relative;
-    display: inline-block;
 
 }
 
@@ -121,10 +166,10 @@ nav a:hover {
     display: none;
     position: absolute;
     background: white;
-    min-width: 230px;
     border: 1px solid #ccc;
+    min-width: 220px;
     padding: 10px;
-    z-index: 5;
+    z-index: 10;
 
 }
 
@@ -133,7 +178,6 @@ nav a:hover {
 
     display: block;
     padding: 7px;
-    font-weight: normal;
 
 }
 
@@ -146,21 +190,62 @@ nav a:hover {
 
 
 
-/* ---------- Main Content ---------- */
+/* =========================
+   Main homepage grid
+   ========================= */
+
+
+main {
+
+    padding: 30px;
+
+}
+
+
+.home-grid {
+
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 40px;
+    align-items: start;
+
+}
+
+
+.home-photo {
+
+    text-align: right;
+    margin: 0;
+
+}
+
+
+.home-photo img {
+
+    width: 230px;
+    height: auto;
+
+}
+
+
+
+/* =========================
+   Typography
+   ========================= */
+
+
+.page-heading {
+
+    font-size: 32px;
+    color: #003366;
+
+}
 
 
 h2 {
 
     color: #006400;
     font-weight: normal;
-    margin-top: 30px;
-
-}
-
-
-h3 {
-
-    color: #006400;
 
 }
 
@@ -172,137 +257,147 @@ a {
 }
 
 
-strong {
+.contact-block {
 
-    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+.lead {
+
+    font-size: 18px;
 
 }
 
 
 
-/* ---------- Bottom boxes ---------- */
+/* =========================
+   Research/content cards
+   ========================= */
 
 
-.boxes {
+.section-card {
+
+    border-top: 1px solid #ddd;
+    margin-top: 35px;
+    padding-top: 20px;
+
+}
+
+
+
+/* =========================
+   Bottom quick links
+   ========================= */
+
+
+.quick-links {
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
-    margin-top: 45px;
-    margin-bottom: 40px;
+    margin-top: 40px;
 
 }
 
 
-.box {
+.quick-links a {
 
+    display: block;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 18px;
     text-decoration: none;
-    color: #333;
-    font-size: 20px;
+    color: #003366;
+    font-size: 18px;
     background: #fafafa;
-    transition: 0.2s;
 
 }
 
 
-.box span {
+.quick-links a::after {
 
+    content: " →";
     float: right;
-    font-size: 25px;
+    font-size: 22px;
 
 }
 
 
-.box:hover {
+.quick-links a:hover {
 
-    background: #f2f2f2;
     border-color: #e6c200;
+    background: #f8f8f8;
 
 }
 
 
 
-/* ---------- Footer ---------- */
+/* =========================
+   Footer
+   ========================= */
 
 
-footer {
+.site-footer {
 
     border-top: 1px solid #ddd;
-    padding-top: 15px;
     margin-top: 40px;
-    font-size: 0.9em;
+    padding: 20px 30px;
+    font-size: 14px;
 
 }
 
 
 
-/* ---------- Mobile ---------- */
+/* =========================
+   Mobile
+   ========================= */
 
 
-@media(max-width:750px) {
+@media (max-width: 750px) {
 
 
-.top-header {
-
-    flex-direction: column-reverse;
-
-}
-
-
-.header-left,
-.header-right {
-
-    width: 100%;
-    text-align: left;
-
-}
-
-
-.header-right img {
-
-    width: 150px;
-
-}
-
-
-nav {
-
-    flex-wrap: wrap;
-
-}
-
-
-.boxes {
+.home-grid {
 
     grid-template-columns: 1fr;
 
 }
 
 
-}
+.home-photo {
 
-.top-links {
-
-    text-align: right;
-    font-size: 14px;
-    margin-bottom: 15px;
+    text-align: center;
 
 }
 
 
-.top-links a {
+.site-title {
 
-    color: #555;
-    text-decoration: none;
+    font-size: 28px;
+
+}
+
+
+.site-nav ul {
+
+    flex-direction: column;
 
 }
 
 
-.top-links a:hover {
+.quick-links {
 
-    color: #b8860b;
+    grid-template-columns: 1fr;
 
 }
 
+
+.institution-bar .inner {
+
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+
+}
