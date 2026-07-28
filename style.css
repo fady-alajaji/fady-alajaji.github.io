@@ -404,7 +404,5 @@ a {
 }
 
 .site-title-row {
-    display: flex;
-    justify-content: space-between;
     padding: 22px 0 18px 0;
 }
