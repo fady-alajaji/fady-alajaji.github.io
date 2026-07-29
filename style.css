@@ -131,13 +131,12 @@ main,
 -->
 
 
-
 .site-nav ul {
     list-style: none;
     display: flex;
     gap: .15rem;
     margin: 0;
-    padding: 0;
+    padding: 0 1.35rem;
     flex-wrap: wrap;
 }
 
