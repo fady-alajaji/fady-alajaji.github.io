@@ -183,18 +183,15 @@ main,
    Main homepage grid
    ========================= */
 
+main {
+    padding: 30px;
+}
 
 <!--
 main {
-
-    padding: 30px;
-
-}
--->
-
-main {
     padding: 15px 30px 30px;
 }
+-->
 
 
 .home-grid {
