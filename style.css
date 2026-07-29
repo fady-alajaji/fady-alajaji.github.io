@@ -267,6 +267,7 @@ a {
    ========================= */
 
 
+<!--- 
 .section-card {
 
     border-top: 1px solid #ddd;
@@ -274,7 +275,15 @@ a {
     padding-top: 20px;
 
 }
+--->
 
+.section-card {
+  margin-top: 2.15rem;
+  padding: 1.3rem 1.45rem;
+  background: var(--queen-purple-soft);
+  border-left: 4px solid var(--queen-purple);
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
 
 
 /* =========================
