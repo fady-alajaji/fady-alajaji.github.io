@@ -134,6 +134,11 @@ main,
     background:white;
 }
 
+.site-nav a[aria-current="page"] {
+    color: #3d2863;
+    border-bottom-color: #d5a928;
+    font-weight: 700;
+}
 
 
 /* Dropdown */
