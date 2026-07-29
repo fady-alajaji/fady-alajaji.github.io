@@ -6,6 +6,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --queen-purple-deep: #3d2863;
+    --queen-purple: #3d2863;
+    --queen-gold: #d5a928;
+    --surface: #ffffff;
+    --radius: 8px;
+}
+
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont,
