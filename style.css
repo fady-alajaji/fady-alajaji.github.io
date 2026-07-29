@@ -224,10 +224,10 @@ main {
 
 
 .page-heading {
-    margin: 0 0 1.65rem;
-    padding-bottom: 0.58rem;
-    color: #3d2863;
-    border-bottom: 2px solid #d5a928;
+    margin: 0 0 0.8rem;
+    padding-bottom: 0.45rem;
+    color: var(--queen-purple-deep);
+    border-bottom: 2px solid var(--queen-gold);
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(1.75rem, 4vw, 2.3rem);
     line-height: 1.2;
@@ -267,11 +267,11 @@ a {
    ========================= */
 
 .section-card {
-  margin-top: 2.15rem;
-  padding: 1.3rem 1.45rem;
-  background: var(--queen-purple-soft);
-  border-left: 4px solid var(--queen-purple);
-  border-radius: 0 var(--radius) var(--radius) 0;
+    margin-top: 0.8rem;
+    padding: 1.0rem 1.2rem;
+    background: var(--surface);
+    border-left: 4px solid var(--queen-purple);
+    border-radius: 0 var(--radius) var(--radius) 0;
 }
 
 
