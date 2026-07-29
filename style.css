@@ -78,7 +78,7 @@ main,
 
 .site-header {
     background: white;
-    border-bottom: 1px solid #dedde3;
+    border-bottom: none;
 }
 
 .site-title {
@@ -109,10 +109,18 @@ main,
     margin: 0 auto;
     background: #f7f6f9;
     border-top: 1px solid #dedde3;
-    border-bottom: none;
+    border-bottom: 1px solid #dedde3;
 }
 
 <!--
+.site-nav {
+    max-width: 1040px;
+    margin: 0 auto;
+    background: #f7f6f9;
+    border-top: 1px solid #dedde3;
+    border-bottom: none;
+}
+
 .site-nav {
     background: #f7f6f9;
     border-top: 1px solid #dedde3;
