@@ -407,6 +407,14 @@ a {
 
 }
 
+
+<!--
 .site-title-row {
     padding: 1.8rem 0 1.5rem;
+   }
+-->
+
+.site-title-row {
+    padding: 2.2rem 0 1.8rem;
 }
+
