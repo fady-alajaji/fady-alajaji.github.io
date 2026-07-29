@@ -190,9 +190,10 @@ main,
 /* =========================
    Main homepage grid
    ========================= */
-
 main {
-    padding: 45px 30px 30px;
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 2.35rem 1.35rem 3.7rem;
 }
 
 <!--
@@ -233,10 +234,9 @@ main {
    Typography
    ========================= */
 
-
 .page-heading {
-    margin: 0 0 0.8rem;
-    padding-bottom: 0.45rem;
+    margin: 0 0 1.65rem;
+    padding-bottom: 0.58rem;
     color: var(--queen-purple-deep);
     border-bottom: 2px solid var(--queen-gold);
     font-family: Georgia, "Times New Roman", serif;
