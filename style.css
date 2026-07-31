@@ -328,6 +328,9 @@ a:visited {
 }
 -->
 
+a:visited {
+    color: var(--link-color);
+}
 
 .lead {
 
