@@ -265,12 +265,21 @@ main {
     line-height: 1.2;
 }
 
+<!--
 h2 {
     color: #24143f;
     font-family: Georgia, "Times New Roman", serif;
     font-weight: 700;
 }
+-->
 
+h2 {
+    color: #24143f;
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #ddd;
+}
 
 a {
 
