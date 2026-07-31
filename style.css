@@ -561,3 +561,9 @@ a:visited {
     color: #777;
     margin: 0 0.45rem;
 }
+
+/* Smooth scrolling for internal page links */
+html {
+    scroll-behavior: smooth;
+}
+
