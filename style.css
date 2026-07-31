@@ -464,19 +464,19 @@ a {
 }
 
 
+
 /* =========================
    Publication copyright notice
    ========================= */
 
 .copyright-notice {
 
-    width: 100%;
+    max-width: 1040px;
     margin: 2.5rem auto 0;
-    padding-top: 1rem;
+    padding: 1rem 1.35rem 0;
     border-top: 1px solid #ccc;
     text-align: center;
     font-size: 0.85rem;
     color: #555;
 
 }
-
