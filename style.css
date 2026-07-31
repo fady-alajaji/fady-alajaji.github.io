@@ -169,21 +169,6 @@ main,
     font-weight: 700;
 }
 
-.publication-area-link {
-    text-align: center;
-    margin: 1rem 0 2rem;
-    font-size: 0.95rem;
-}
-
-.publication-area-link a {
-    color: var(--queen-purple-deep);
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.publication-area-link a:hover {
-    text-decoration: underline;
-}
 
 /* Dropdown */
 
