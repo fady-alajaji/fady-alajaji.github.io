@@ -454,4 +454,18 @@ a {
     color: #666;
 }
 
+/* =========================
+   Publication copyright notice
+   ========================= */
 
+.copyright-notice {
+
+    max-width: 750px;
+    margin: 2.5rem auto 0;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+    text-align: center;
+    font-size: 0.85rem;
+    color: #555;
+
+}
