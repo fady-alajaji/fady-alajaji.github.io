@@ -454,13 +454,14 @@ a {
     color: #666;
 }
 
+
 /* =========================
    Publication copyright notice
    ========================= */
 
 .copyright-notice {
 
-    max-width: 750px;
+    width: 100%;
     margin: 2.5rem auto 0;
     padding-top: 1rem;
     border-top: 1px solid #ccc;
@@ -469,3 +470,4 @@ a {
     color: #555;
 
 }
+
