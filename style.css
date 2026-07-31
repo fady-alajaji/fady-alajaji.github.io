@@ -447,4 +447,11 @@ a {
 }
 
 
+.subtitle-note {
+    font-size: 0.55em;
+    font-style: italic;
+    font-weight: normal;
+    color: #666;
+}
+
 
