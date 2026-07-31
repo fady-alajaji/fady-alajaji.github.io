@@ -169,6 +169,17 @@ main,
     font-weight: 700;
 }
 
+.publication-area-link {
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-size: 0.95rem;
+}
+
+.publication-area-link a {
+    color: #3d2863;
+    font-weight: 600;
+}
 
 /* Dropdown */
 
