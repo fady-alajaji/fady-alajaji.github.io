@@ -12,6 +12,7 @@
     --queen-gold: #d5a928;
     --surface: #ffffff;
     --radius: 8px;
+    --link-color: #0000ee;
 }
 
 
@@ -289,7 +290,6 @@ a {
     color: #0645ad;
 
 }
--->
 
 /* General links */
 a {
@@ -308,6 +308,22 @@ a:focus {
 
     font-style: normal;
 
+}
+-->
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #551A8B;   /* optional: classic purple for visited links */
 }
 
 
