@@ -322,9 +322,11 @@ a:focus {
     text-decoration: underline;
 }
 
+<!--
 a:visited {
     color: #551A8B;   /* optional: classic purple for visited links */
 }
+-->
 
 
 .lead {
