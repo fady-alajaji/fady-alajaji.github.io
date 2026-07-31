@@ -282,10 +282,25 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
+
+<!--
 a {
 
     color: #0645ad;
 
+}
+-->
+
+/* General links */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: text-decoration 0.15s ease;
+}
+
+a:hover,
+a:focus {
+    text-decoration: underline;
 }
 
 
