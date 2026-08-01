@@ -6,16 +6,6 @@
     box-sizing: border-box;
 }
 
-/* ===
-:root {
-    --queen-purple-deep: #3d2863;
-    --queen-purple: #3d2863;
-    --queen-gold: #d5a928;
-    --surface: #ffffff;
-    --radius: 8px;
-    --link-color: #0645ad;
-} 
-====*/
 
 :root {
     --max-width: 1040px;
@@ -44,14 +34,6 @@ body {
     background: white;
 }
 
-/* =====
-.inner,
-main,
-.site-footer {
-    max-width: var(--max-width);        /* max-width: 1040px;  */
-    margin: 0 auto;
-}
-==== */
 
 .inner,
 main {
@@ -139,24 +121,6 @@ main {
     border-bottom: 1px solid #dedde3;
 }
 
-/* ========
-.site-nav {
-    max-width: 1040px;
-    margin: 0 auto;
-    background: #f7f6f9;
-    border-top: 1px solid #dedde3;
-    border-bottom: none;
-}
-
-.site-nav {
-    background: #f7f6f9;
-    border-top: 1px solid #dedde3;
-    border-bottom: 1px solid #dedde3;
-    margin-top: 0;
-    padding-bottom: 0;
-}
-========= */
-
 
 .site-nav ul {
     list-style: none;
@@ -243,12 +207,6 @@ main {
     padding: 3.5rem 1.35rem 3.7rem;
 }
 
-/* ========
-main {
-    padding: 15px 30px 30px;
-}
-======= */
-
 
 .home-grid {
 
@@ -291,13 +249,6 @@ main {
     line-height: 1.2;
 }
 
-/* ========
-h2 {
-    color: #24143f;
-    font-family: Georgia, "Times New Roman", serif;
-    font-weight: 700;
-}
-======= */
 
 h2 {
     color: #24143f;
@@ -308,33 +259,6 @@ h2 {
 }
 
 
-/* ========
-a {
-
-    color: #0645ad;
-
-}
-
-/* General links */
-a {
-    color: var(--link-color);
-    text-decoration: none;
-    transition: text-decoration 0.15s ease;
-}
-
-a:hover,
-a:focus {
-    text-decoration: underline;
-}
-
-
-.contact-block {
-
-    font-style: normal;
-
-}
-====== */
-
 a {
     color: var(--link-color);
     text-decoration: none;
@@ -346,11 +270,6 @@ a:focus {
     text-decoration: underline;
 }
 
-/* ========
-a:visited {
-    color: #551A8B;   /* optional: classic purple for visited links */
-}
-===== */
 
 a:visited {
     color: var(--link-color);
@@ -367,15 +286,7 @@ a:visited {
 /* =========================
    Research/content cards
    ========================= */
-/* ========
-.section-card {
-    margin-top: 0.8rem;
-    padding: 1.0rem 1.2rem;
-    background: var(--surface);
-    border-left: none;
-    border-radius: 0;
-}
-======= */
+
 
 .section-card {
     margin-top: 0.8rem;
@@ -432,17 +343,6 @@ a:visited {
 /* =========================
    Footer
    ========================= */
-
-/* =============
-.site-footer {
-    background: var(--surface-soft);
-    border-top: 1px solid #ddd;
-    margin-top: 40px;
-    padding: 20px 30px;
-    font-size: 14px;
-    color: var(--muted);
-}
-=============== */
 
 .site-footer {
     background: var(--surface-soft);     /* == background: #f6f6f6; ==*/
@@ -514,12 +414,6 @@ a:visited {
 }
 
 
-/* ========
-.site-title-row {
-    padding: 1.8rem 0 1.5rem;
-   }
-======== */
-
 .site-title-row {
     max-width: 1040px;
     margin: 0 auto;
@@ -561,11 +455,6 @@ a:visited {
     margin-top: 2.5rem;
 }
 
-/* =======
-.publication-section li {
-    margin-bottom: 1.2rem;
-}
-====*/
 
 .publication-section li {
     line-height: 1.7;
