@@ -30,7 +30,7 @@ body {
 .inner,
 main,
 .site-footer {
-    max-width: 1040px;
+    max-width: var(--max-width);        /* max-width: 1040px;  */
     margin: 0 auto;
 }
 
@@ -411,7 +411,7 @@ a:visited {
 
 
 .site-footer {
-
+    background: var(--surface-soft);
     border-top: 1px solid #ddd;
     margin-top: 40px;
     padding: 20px 30px;
