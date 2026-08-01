@@ -487,9 +487,16 @@ a:visited {
     text-decoration: underline;
 }
 
+/* ====
 .publication-nav span {
     color: #777;
     margin: 0 0.45rem;
+}
+=== */
+
+.publication-nav span {
+    color:#bbb;
+    margin:0 .6rem;
 }
 
 /* Smooth scrolling for internal page links */
