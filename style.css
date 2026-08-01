@@ -6,11 +6,29 @@
     box-sizing: border-box;
 }
 
+/* ===
 :root {
     --queen-purple-deep: #3d2863;
     --queen-purple: #3d2863;
     --queen-gold: #d5a928;
     --surface: #ffffff;
+    --radius: 8px;
+    --link-color: #0645ad;
+} 
+====*/
+
+:root {
+    --max-width: 1040px;
+
+    --queen-purple-deep: #3d2863;
+    --queen-purple: #3d2863;
+    --queen-gold: #d5a928;
+
+    --surface: #ffffff;
+    --surface-soft: #f6f6f6;
+
+    --muted: #666;
+
     --radius: 8px;
     --link-color: #0645ad;
 }
@@ -26,14 +44,20 @@ body {
     background: white;
 }
 
-
+/* =====
 .inner,
 main,
 .site-footer {
     max-width: var(--max-width);        /* max-width: 1040px;  */
     margin: 0 auto;
 }
+==== */
 
+.inner,
+main {
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
 
 /* =========================
    Institution bar
@@ -409,7 +433,7 @@ a:visited {
    Footer
    ========================= */
 
-
+/* =============
 .site-footer {
     background: var(--surface-soft);
     border-top: 1px solid #ddd;
@@ -418,7 +442,22 @@ a:visited {
     font-size: 14px;
     color: var(--muted);
 }
+=============== */
 
+.site-footer {
+    background: #f6f6f6;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.site-footer .inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 1.35rem;
+    font-size: 14px;
+    color: #666;
+}
 
 
 /* =========================
