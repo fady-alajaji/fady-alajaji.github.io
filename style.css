@@ -509,7 +509,7 @@ a:visited {
 .copyright-notice {
 
     max-width: 1040px;
-    margin: 0rem auto 0; /* Changed from 2.5rem to 0rem */
+    margin: -1rem auto 0; /* Changed from 2.5rem to -1rem */
     padding: 1rem 1.35rem 0;
     border-top: 1px solid #ccc;
     text-align: left;
