@@ -416,7 +416,7 @@ a:visited {
     margin-top: 40px;
     padding: 20px 30px;
     font-size: 14px;
-
+    color: var(--muted);
 }
 
 
