@@ -321,15 +321,13 @@ a:visited {
    Research/content cards
    ========================= */
 
-/* ====================
 .section-card {
     margin-top: 0.8rem;
     padding: 0;
     background: transparent;
 }
-===================== */
 
-.section-card {
+.research-card {
     margin-top: 2rem;
     padding: 1.3rem 1.45rem;
     background: #f3eff8;
