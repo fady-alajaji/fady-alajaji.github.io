@@ -242,7 +242,13 @@ main {
 
 }
 
+.contact-block {
+    font-style: normal;
+}
 
+.contact-block p {
+    margin: 0 0 1.08rem;
+}
 
 /* =========================
    Typography
