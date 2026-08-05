@@ -168,6 +168,11 @@ main {
     font-weight: 700;
 }
 
+.site-nav a,
+.site-nav a:visited {
+    color: #24242a;
+}
+
 
 /* Dropdown */
 
