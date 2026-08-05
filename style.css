@@ -30,7 +30,7 @@ body {
                  "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 17px;
     color: #222;
-    line-height: 1.75;
+    line-height: 1.65;  /* ==== line-height: 1.75; ==== */
     background: white;
 }
 
@@ -282,17 +282,16 @@ main {
     font-family: Georgia, "Times New Roman", serif;
     font-size: clamp(1.75rem, 4vw, 2.3rem);
     line-height: 1.2;
-    width: 110%;
+    width: 112%;
 }
 
 h2 {
-    color: #24143f;
+    color: #3d2863;   /* === color: #24143f; === */
     font-family: Georgia, "Times New Roman", serif;
     font-weight: 700;
     padding-bottom: 0.35rem;
-    border-bottom: 1px solid #ddd;
+    border-bottom: 1px solid #dedde3;  /* ==== border-bottom: 1px solid #ddd; ==== */
 }
-
 
 a {
     color: var(--link-color);
@@ -322,11 +321,21 @@ a:visited {
    Research/content cards
    ========================= */
 
-
+/* ====================
 .section-card {
     margin-top: 0.8rem;
     padding: 0;
     background: transparent;
+}
+===================== */
+
+.section-card {
+    margin-top: 2rem;
+    padding: 1.3rem 1.45rem;
+    background: #f3eff8;
+    border: 1px solid #e5ddee;
+    border-left: 4px solid #613f99;
+    border-radius: 0 8px 8px 0;
 }
 
 /* =========================
