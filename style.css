@@ -138,7 +138,31 @@ main {
 
 }
 
+.site-nav a,
+.site-nav a:visited {
+    display: block;
+    padding: .75rem .85rem;
+    color: #24242a;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    font-weight: 600;
+}
 
+.site-nav a:hover,
+.site-nav a:focus {
+    color: #3d2863;
+    background: transparent;
+    border-bottom-color: #d5a928;
+}
+
+.site-nav a[aria-current="page"] {
+    color: #3d2863;
+    border-bottom-color: #d5a928;
+    font-weight: 700;
+}
+
+
+/* =================
 .site-nav a {
     display:block;
     padding:.75rem .85rem;
@@ -147,13 +171,6 @@ main {
     border-bottom:3px solid transparent;
     font-weight:600;
 }
-
-/* ====
-.site-nav a:hover {
-    color:#3d2863;
-    background:white;
-}
-==== */
 
 .site-nav a:hover,
 .site-nav a:focus {
@@ -172,7 +189,7 @@ main {
 .site-nav a:visited {
     color: #24242a;
 }
-
+==================== */
 
 /* Dropdown */
 
