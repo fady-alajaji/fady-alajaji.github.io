@@ -299,6 +299,8 @@ h2 {
     border-bottom: 1px solid #dedde3;  /* ==== border-bottom: 1px solid #ddd; ==== */
 }
 
+
+/*====
 a {
     color: var(--link-color);
     text-decoration: none;
@@ -314,6 +316,36 @@ a:focus {
 a:visited {
     color: var(--link-color);
 }
+
+===*/
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    color: var(--link-color);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--link-color);
+}
+
+/* Keep the institution bar links white */
+.institution-bar a,
+.institution-bar a:visited {
+    color: white;
+}
+
+.institution-bar a:hover,
+.institution-bar a:focus {
+    color: white;
+    text-decoration: underline;
+}
+
 
 .lead {
 
