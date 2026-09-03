@@ -1,0 +1,353 @@
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="proba.css">
+  <title>MATH/MTHE 474/874</title> 
+</head>
+
+
+<body bgcolor="white" text="black">
+
+<table width="80%">
+<tr>
+<td><img src="qmasthead-new2.jpg" alt="Queen's Math & Stats Masthead"
+width="527" height="63"></td>
+</tr>
+</table>
+
+<div align="right" class="directory">
+<small>
+<a target="_top" href="http://www.mast.queensu.ca/">Math and Stats</a> |
+<A target="_top" HREF="http://www.queensu.ca/">Queen's University</A>
+</small>
+</div>
+
+
+
+
+<p>
+<hr>
+<p>
+<center>
+<font size=+2 color=Green><b>
+MATH - MTHE 474/874 - Information Theory</b></font>
+</center>
+<p>
+<center>
+<font size=+2 color=Green><i>Fall 2024</i></font>
+</center>
+<p>
+<hr>
+
+
+<p>
+<dl>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Instructor</b></font><p>
+<dd>
+<a href="http://www.mast.queensu.ca/~fady/">Fady Alajaji</a><br>
+Office: Jeffery Hall, Room 402 <br>
+Telephone: 533-2423 <br>
+E-mail: <i>fa@queensu.ca</i>
+</dl>
+<p>
+
+<!--
+<dl>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Teaching Assistants</b></font><p>
+<dd>
+
+TBA <br>
+
+</dl>
+-->
+
+<!--
+Mohammad Akbari: <i>13mav1@queensu.ca</i> <br>
+Bora Yongacoglu: <i>1bmy@queensu.ca</i> <br>
+
+Jian-Jia Weng <br>
+E-mail: <i>jian-jia.weng@queensu.ca</i> <br> 
+-->
+
+<p>
+<hr>
+<p>
+<dl>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<a href="https://login.queensu.ca/idp/profile/SAML2/Redirect/SSO?execution=e1s2"}
+<font size=+2 color=Red>Course Website: OnQ</font></a>
+<!-- <a href="announce.shtml"><font size=+2 color=Red>Announcements</font></a> -->
+<p>
+<dd> 
+</dl>
+<p>
+<hr>
+<p>
+
+<!--
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Lectures</b></font><p>
+<dd>
+Monday 10:30-11:30, Wednesday 9:30-10:30 and Friday 8:30-9:30 - Jeffery 127. 
+<p>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<a href="homeworks.shtml"><font size=+2 color=Red>Homeworks</font></a><p>
+<dd> The homework assignments will
+be posted  on this  web site (click <a href="homeworks.shtml">here</a> to access
+them).
+There will be a total of <i>five</i> problem sets.
+Solutions to the assignments will be available on reserve 
+at the Circulation Desk of Stauffer Library.
+<p>
+<hr>
+<p>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Office Hours</b></font><p>
+<dd>
+Friday: 9:30-10:30, or by appointment.
+</dl>
+-->
+
+<p>
+<dl>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Textbook</b></font><p>
+<!-- <font size=+2><b>Textbook and Notes</b></font><p> -->
+<dd>
+F. Alajaji and P.-N. Chen, <A HREF="https://www.springer.com/us/book/9789811080005">
+<i>An Introduction to Single-User Information Theory,</i></A>
+Springer, 2018.
+	[<A HREF="errata.pdf">errata</A>]
+<br>
+<!--
+<br>
+Class Notes. <br>
+-->
+<p>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>References</b></font><p>
+<dd>
+T. M. Cover and J. A. Thomas, <i>Elements of Information Theory,</i> Second Edition, John Wiley, 2006. <br>
+R. Gallager, <i>Information Theory and Reliable Communication,</i>
+John Wiley, 1968. <br>
+R. Blahut, <i>Principles and Practice of Information Theory,</i> 
+Addison Wesley, 1987. <br>
+R. Yeung, <i>Information Theory and Network Coding,</i>
+Springer, 2008. <br>
+</dl>
+<p>
+<hr>
+<p>
+
+<!-- <dl>  -->
+<!--
+<img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Grading</b></font><p>
+<dd>
+Homeworks: 10%<br>
+Midterm Exam:  30%<br>
+Final Exam: 60%<br>
+<p>
+<dd>
+<b>Note:</b> Undergraduate students enrolled 
+in MATH-474 will receive 
+a reduced load in the homeworks and exams.
+The Midterm Exam is 
+<!- tentatively ->
+scheduled for <i>Tuesday, November 5, 2019.</i>
+<p>
+<dd>
+All assignments and exams in this course will receive numerical marks. The final
+grade students receive for the course will be derived by converting their numerical
+course average to a letter grade according to the
+<a href= "Transcriptlegend.pdf">
+Queens Official Grade Conversion Scale.</a> <br>
+<p>
+
+
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Policy for Missing Exams:</b></font><p>
+<dd>
+There will be no
+makeup exams. If a student misses the midterm
+due to severe illness or a personal tragedy, then
+the final exam will count towards 90% of the
+student's mark.
+<p>
+</dl>
+-->
+
+<dl>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Students with Special Needs:</b></font><p>
+<dd>
+Students with diverse learning styles and needs are welcome at Queen's. In
+particular, if you have a disability or health consideration that may require
+accommodations, please feel free to approach me and/or 
+<a href="https://www.queensu.ca/studentwellness/accessibility-services
+">Queen's Student Accessibility Services</a>.
+
+
+<p>
+
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Academic Integrity:</b></font><p>
+<dd>
+Academic integrity is constituted by the five core fundamental values of honesty, 
+trust, fairness, respect and responsibility. 
+These values are central to the building, nurturing and sustaining of an academic 
+community in which all members of the community will thrive. Adherence to the values 
+expressed through academic integrity forms a foundation for the "freedom of inquiry 
+and exchange of ideas" essential to the intellectual life of the University.
+
+Students are responsible for familiarizing themselves with the regulations concerning
+academic integrity and for ensuring that their assignments conform to the principles
+of academic integrity. Information on academic integrity is available on these websites:
+<a href="https://www.queensu.ca/artsci/students-at-queens/academic-integrity">
+Arts and Science</a> 
+and <a href="http://engineering.queensu.ca/policy/Honesty.html">
+Engineering and Applied Science</a>.
+
+<br>
+<br>
+Departures from academic integrity include plagiarism, use of unauthorized materials,
+facilitation, forgery and falsification, and are antithetical to the development of an
+academic community at Queen's.  Given the seriousness of these matters, actions which
+contravene the regulation on academic integrity carry sanctions that can range from
+a warning or the loss of grades on an assignment to the failure of a course to
+a requirement to withdraw from the university.
+</dl>
+<p>
+
+<hr>
+<dl>
+<p>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Outline</b></font><p>
+<dd>
+The reliable compression, processing and transmission of information bearing signals over a noisy
+communication channel is at the heart of what we call communication.
+<i>Information theory</i> -- founded by 
+<a href="shannon.shtml">Claude E. Shannon</a> in 1948 --
+provides a mathematical framework for the theory
+of communication; it describes the <i>fundamental 
+limits</i> to how efficiently one can encode
+information and still be able to recover it with negligible loss.
+This course will examine the basic concepts of this theory.
+What follows is a list of topics to be covered.
+<p>
+<ul>
+<l>
+<li><em>Shannon's Measures of Information</em>: entropy, divergence,
+cross-entropy, mutual information; properties of information measures;
+generalized information measures (R&eacute;nyi entropy and divergence,
+Jensen-Shannon divergence);
+the data processing theorem; Fano's inequality.
+
+<p>
+
+<li> <em>Fundamentals of Fixed-Length Lossless Source Coding
+(Data Compression)</em>:
+discrete memoryless sources,
+asymptotic equipartition property (AEP),
+block or fixed-length coding,
+fixed-length source coding theorem for discrete memoryless sources;
+entropy rate of stationary sources with memory, Markov sources, 
+stationary ergodic sources, fixed-length source coding theorem for
+stationary ergodic sources; source modeling and redundancy.
+
+<p>
+
+<li> <em>Fundamentals of Variable-Length Lossless Source Coding</em>:
+variable-length encoding, unique decodability, Kraft inequality,
+prefix codes, variable-length source coding theorem 
+for discrete memoryless sources and for stationary sources
+with memory; Shannon-Fano code; design and construction of optimal variable-length
+codes: Huffman codes.
+
+<p>
+
+<li> <em>Fundamentals of Channel Coding</em>: 
+discrete memoryless channels,
+channel capacity and properties; noisy channel coding theorem 
+for discrete memoryless channels;
+the lossless joint source-channel coding theorem and Shannon's separation principle.
+
+
+<p>
+
+<li> <em>Information Theory for Continuous Alphabet Systems</em>:
+differential entropy, divergence and mutual information; 
+differential entropy of the
+multivariate Gaussian distribution; AEP for continuous alphabet 
+memoryless sources, capacity
+of discrete-time and band-limited continuous-time memoryless Gaussian channels;
+parallel Gaussian channels and waterfilling.
+
+<p>
+
+<li> <em>Rate-Distortion Theory</em>:
+(time permitting) lossy data compression;
+discrete memoryless sources,
+rate-distortion function and its properties; rate-distortion theorem;
+the lossy joint source-channel coding theorem and the Shannon limit of communication systems. 
+<p>
+
+</l>
+                                   
+</dl>
+</ul>
+
+<p>
+<hr>
+<dt><img src="greenbal.gif" alt="*" width=14 height=14>
+<font size=+2><b>Interesting Links</b></font><p> <a id="links">
+ 
+<dd>
+<img src="redball.gif" alt="*" width=10 height=10>
+<a href="shannon.shtml">Claude E. Shannon</a> 
+<p>
+
+<dd>
+<img src="redball.gif" alt="*" width=10 height=10>
+<a href="http://www.itsoc.org/">
+IEEE Information Theory Society</a>
+ <p>
+
+
+<dd>
+ <img src="redball.gif" alt="*" width=10 height=10>
+ <a href="http://infotheory.ca/">
+  Canadian Society of Information Theory (CSIT)</a>
+ <p>
+
+
+<!--
+ <dd>
+ <img src="redball.gif" alt="*" width=10 height=10>
+ <a href="http://www.data-compression.com">
+ Data-Compression.Com</a> 
+<p>
+-->
+
+<dd>
+ <img src="redball.gif" alt="*" width=10 height=10>
+ <a href="How-We-Know-Freeman-Dyson-NYREV-march11.pdf">
+How We Know</a> by  <a href="http://www.sns.ias.edu/~dyson/">Freeman Dyson</a>, 
+published in The New York Review of Books, March 10, 2011
+<p>
+
+<hr>
+
+
+</body>
+<p>
+
+</html>
+
