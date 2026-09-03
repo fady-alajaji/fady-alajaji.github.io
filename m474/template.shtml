@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+
+<head>
+  <meta HTTP-EQUIV="Content-Type" CONTENT="text/html;charset=ISO-8859-1">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/mast.css">
+  <title>#TITLE#</title>
+</head>
+
+
+<body bgcolor="white" text="black">
+
+<!--#include virtual="/common/mastbanner.htmlf" -->
+
+
+<h1>#TITLE#</h1>
+
+
+</body>
+
+</html>
